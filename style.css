@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    /* padding: 0px; */
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+main {
+    font-family: 'Sriracha', cursive;
+    font-size: 3vw;
+    line-height: 2em;
+    background-color: white;
+    margin: 20px;
+    padding: 20px; /* padding-top e padding-bottom: 10vh */
+}
+
+section {
+    margin: 25px 0px 20px 0px;
+}
+
+#background001 {
+    margin: 40px -40px 40px -40px;
+    padding: 40px;
+    /* box-shadow: 1px 1px rgba(0, 0, 0, 0.493); */
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#background002 {
+    margin: 40px -40px 40px -40px;
+    padding: 40px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main #background001 p {
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 50%; /* width: 400px */ /* display: inline-block */
+    padding: 5px;
+}
+
+main #background002 p {
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.466);
+    display: inline-block; /* utilizando este display ele transforma para o tamanho do conteúdo */
+    padding: 5px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
