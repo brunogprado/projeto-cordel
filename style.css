@@ -43,7 +43,7 @@ section {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -54,7 +54,7 @@ section {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
     background-image: url(imagens/background002.jpg);
     background-position: right center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
