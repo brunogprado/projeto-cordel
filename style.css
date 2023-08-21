@@ -33,7 +33,7 @@ main {
 }
 
 section {
-    margin: 25px 0px 20px 0px;
+    margin: 25px 0px 20px 100px;
 }
 
 #background001 {
@@ -43,7 +43,7 @@ section {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-attachment: fixed;
     background-size: cover;
 }
@@ -54,7 +54,7 @@ section {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
     background-image: url(imagens/background002.jpg);
     background-position: right center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-attachment: fixed;
     background-size: cover;
 }
@@ -63,8 +63,12 @@ main #background001 p {
     color: white;
     text-shadow: 1px 1px black;
     background-color: rgba(0, 0, 0, 0.466);
-    width: 50%; /* width: 400px */ /* display: inline-block */
+    width: 50%;
+    width: 400px;
+    display: inline-block;
     padding: 5px;
+    margin: 25px 0px 20px 100px;
+
 }
 
 main #background002 p {
@@ -73,6 +77,8 @@ main #background002 p {
     background-color: rgba(0, 0, 0, 0.466);
     display: inline-block; /* utilizando este display ele transforma para o tamanho do conteúdo */
     padding: 5px;
+    margin: 25px 0px 20px 100px;
+
 }
 
 footer {
