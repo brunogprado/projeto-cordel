@@ -33,7 +33,7 @@ main {
 }
 
 section {
-    margin: 25px 0px 20px 100px;
+    margin: 25px 0px 20px 0px;
 }
 
 #background001 {
@@ -63,11 +63,9 @@ main #background001 p {
     color: white;
     text-shadow: 1px 1px black;
     background-color: rgba(0, 0, 0, 0.466);
-    width: 50%;
-    width: 400px;
     display: inline-block;
     padding: 5px;
-    margin: 25px 0px 20px 100px;
+    margin: 25px 0px 20px 0px;
 
 }
 
@@ -77,7 +75,7 @@ main #background002 p {
     background-color: rgba(0, 0, 0, 0.466);
     display: inline-block; /* utilizando este display ele transforma para o tamanho do conteúdo */
     padding: 5px;
-    margin: 25px 0px 20px 100px;
+    margin: 25px 0px 20px 0px;
 
 }
 
